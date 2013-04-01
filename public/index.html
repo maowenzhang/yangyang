@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>YangYang</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+      <link  href="css/main.css" rel="stylesheet"/>
+      <style>
+          body {
+              font-family: monospace;
+              background-color: #f1f1f1;
+              margin: 0;
+              overflow: hidden;
+
+              padding-top: 55px;
+              padding-bottom: 40px;
+          }
+      </style>
+
+      <!--boostrap-->
+      <link href="3p/boostrap/css/bootstrap.css" rel="stylesheet"/>
+      <link href="3p/boostrap/css/bootstrap-responsive.css" rel="stylesheet"/>
+
+  </head>
+
+  <body style="background-color: #f1f1f1">
+      <!--Top tool bar-->
+      <div class="navbar navbar-fixed-top">
+          <div class="navbar-inner">
+              <div class="container-fluid">
+                  <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <img class="brand" src="favicon.ico" style="width:28px; height:29px; padding:3px 2px 0px 1px; margin-left:10px"/><a class="brand" href="#">Yangyang</a>
+                  <div class="nav-collapse collapse">
+                      <ul class="nav">
+                          <li class="active"><a href="#">Home</a></li>
+                          <li><a href="#about">About</a></li>
+                          <li><a href="#contact">Contact</a></li>
+                      </ul>
+                      <button class="btn pull-right" style="padding:4px 10px; margin-left: 8px;">Sign In</button>
+                  </div>
+              </div>
+          </div>
+      </div>
+
+      <div class="container-fluid">
+          <!--Left sidebar-->
+          <div class="row-fluid">
+              <div class="span2">
+                  <div class="well sidebar-nav" >
+                      <ul class="nav nav-list">
+                          <li class="nav-header">Apps</li>
+                          <li id="listitem1" data-toggle="tooltip" title="xDesign">
+                              <a href="http://xdesign.cloudfoundry.com"><img class="thumbnail" src="img/thumbnail_box.png"/><p>Box</p></a>
+                          </li>
+                          <li id="listitem2" data-toggle="tooltip" title="xSlide">
+                              <a href="http://xslide.cloudfoundry.com"><img class="thumbnail" src="img/thumbnail_customerfile1.png"/><p>xSlide</p></a>
+                          </li>
+
+                          <li id="listitem3" data-toggle="tooltip" title="Rena">
+                              <a href="http://rena.cloudfoundry.com"><img class="thumbnail" src="img/thumbnail_fixtureA.png"/><p>Rena</p></a>
+                          </li>
+                          <li id="listitem4" data-toggle="tooltip" title="Poker">
+                              <a href="http://forge.cloudfoundry.com"><img class="thumbnail" src="img/thumbnail_fixtureB.png"/><p>Poker</p></a>
+                          </li>
+                      </ul>
+                  </div><!--/.well -->
+              </div><!--/span-->
+          </div>
+      </div>
+
+      <!-- script files -->
+      <script type="text/javascript" src="3p/jquery/js/jquery-1.8.0.min.js"></script>
+      <script type="text/javascript" src="3p/jquery/js/jquery-ui-1.8.23.custom.min.js"></script>
+      <script type="text/javascript" src="3p/boostrap/js/bootstrap.js"></script>
+
+      
+      <script src="js/index.js"></script>
+
+  </body>
+</html>

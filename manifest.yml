@@ -1,0 +1,9 @@
+--- 
+applications: 
+- name: yangyang
+  framework: node
+  runtime: node08
+  memory: 512M
+  instances: 1
+  url: yangyang.${target-base}
+  path: .
